@@ -1,6 +1,6 @@
 package com.thomasglasser.minejago.init;
 
-public class Registration {
+public class Elements {
     public static void init() {
     }
 }
