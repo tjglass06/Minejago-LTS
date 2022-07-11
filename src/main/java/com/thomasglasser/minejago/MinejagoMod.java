@@ -1,5 +1,6 @@
 package com.thomasglasser.minejago;
 
+import com.thomasglasser.minejago.server.item.properties.ModTiers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
@@ -19,6 +20,7 @@ public class MinejagoMod
     public static final String MODID = "minejago";
 
     public MinejagoMod() {
+        ModTiers.register();
         Elements.init();
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
