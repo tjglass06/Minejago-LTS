@@ -1,6 +1,6 @@
 package com.thomasglasser.minejago;
 
-import com.thomasglasser.minejago.server.item.properties.ModTiers;
+import com.thomasglasser.minejago.server.item.property.ModTiers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
